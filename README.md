@@ -69,3 +69,13 @@ or
 #### to change password
 `\password postgres`
 
+
+## Steps to add an app to the database
+1. Create the app model in models.py file of that app
+2. Add the app in the settings.py file of the project
+  - app.apps.app_nameConfig
+3. Create Migrations (python manage.py makemigrations)
+4. Migrate (python manage.py migrate)
+5. Add app to the admin
+  - from .models import app
+  - admin.site.register(app)
