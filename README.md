@@ -77,5 +77,5 @@ or
 3. Create Migrations (python manage.py makemigrations)
 4. Migrate (python manage.py migrate)
 5. Add app to the admin
-  - from .models import app
-  - admin.site.register(app)
+    * from .models import app
+    * admin.site.register(app)
