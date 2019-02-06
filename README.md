@@ -55,3 +55,17 @@ or
 #### to create superuser
 `python manage.py createsuperuser`
 
+
+## PostgreSQL
+#### to start postgres in command line
+`psql -U <user_name> <db_name>`
+
+#### to view relations
+`\dt`
+
+#### to view users and their roles
+`\du`
+
+#### to change password
+`\password postgres`
+
